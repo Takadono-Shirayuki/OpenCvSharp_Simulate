@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="BlackAndWhiteImageProcessing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Blur.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="BorderTracing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ChangeBrightness.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ChangeContrast.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Co-occurrenceMatrices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ColorDetection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="CornerDetectFAST.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="CornerDetectHarris.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="EdgeDetectionDoG.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="EdgeDetection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="EdgeDetectionLoG.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="EdgeDetectionSobel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ErodeAndDilate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Histogram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HoughCircleTransform.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ProbabilisticHoughLineTransform.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="RotateImageUseHoughLine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="StandardHoughLineTransform.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="PixelInformation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="RotateImage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="WindowInformation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Form1.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
